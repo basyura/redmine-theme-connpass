@@ -1,0 +1,247 @@
+/* load the default Redmine stylesheet */
+@import url(../../../stylesheets/application.css);
+
+#top-menu {
+  /*background: #377FA3;*/
+  background-color: #ECECEC;
+  /*border-bottom: 1px solid gray;*/
+  color: #484848;
+  /*border-left:4px solid #969696;*/
+  border-bottom: 4px solid #F7F7F7;
+}
+
+#top-menu #loggedas {
+  color: #484848;
+}
+
+#header {
+  background-color: #ECECEC;
+  min-height: 50px;
+}
+
+#header, #header a, #top-menu a {
+  color: #484848;
+}
+
+#header h1 {
+  text-decoration: underline;
+  padding-left:50px;
+  padding-bottom:10px;
+  padding-top:10px;
+  background: url( ../images/logo.png) no-repeat 5px 10px;
+  /*border-bottom: 4px solid #F7F7F7;*/
+  /*color: #759FCF;*/
+}
+
+
+#main-menu {
+  margin-left: -10px;
+}
+
+#main-menu li a {
+  color: #484848;
+}
+
+#main-menu li a.selected, #main-menu li a.selected:hover  {
+  background: #759FCF;
+  color: white;
+}
+
+.contextual {
+  padding-right:10px;
+}
+
+#main {
+  border-top: 1px solid #D6D6D6;
+}
+
+#sidebar {
+  width:15%;
+}
+
+#content {
+  background-color:#F7F7F7;
+  width:82%;
+}
+
+
+div.issue {
+  background-color:#FFFFFF;
+  border: 1px solid #D8D8D8;
+  padding: 20px;
+}
+
+
+.next-prev-links a, .next-prev-links span {
+  color: #484848;
+}
+
+a.icon-time-add, a.issue-1-watcher, a.icon-copy, a.icon-del, a.wiki_page-1-watcher, a.icon-lock, a.icon-history, a.icon-move {
+  color: #484848;
+}
+
+div.subject h3 {
+  margin-left: -8px !important;
+  font-size: 20px;
+  color: #169;
+}
+
+.author {
+  text-align:right;
+}
+
+.author a {
+  color: #484848;
+}
+
+#history h3 {
+  /*border-left:4px solid #969696;*/
+  /*box-shadow: 0px 0px 3px #DDD;*/
+  /*padding: 10px;*/
+  /*margin:10px -10px 10px;*/
+}
+
+.journal {
+  background-color: #ffffff;
+  border: 1px solid #D8D8D8;
+  padding: 20px;
+  margin-top: 10px;
+}
+
+
+.journal h3 {
+  font-size: 18px;
+  margin: 0px 0px 10px;
+  border-bottom: 6px solid #EBEBEB;
+  padding-bottom: 6px;
+}
+
+#history h4 a {
+  color: #484848;
+}
+
+.icon-edit {
+  /*background-color: red !important;*/
+  /*color: white !important;*/
+}
+
+.other-formats a {
+  color: #666;
+}
+
+.other-formats a.atom {
+  background: none;
+  padding: 0px;
+}
+
+.bgr a {
+  color: #AAA;
+}
+
+div.wiki-page {
+  background-color:#FFFFFF;
+  border: 1px solid #D8D8D8;
+  padding: 20px;
+}
+
+.wiki-page h1 {
+  color: #169 !important;
+  /*text-decoration: underline;*/
+}
+
+div.issue h2, .wiki h2 {
+  border-left:4px solid #ECECEC;
+  box-shadow: 0px 0px 3px #DDD;
+  padding: 10px;
+  background-color: #F7F7F7;
+  margin-left:-20px;
+  margin-right:-20px;
+}
+
+.wiki h3 {
+  font-size: 18px;
+  margin: 0px 0px 10px;
+  border-bottom: 6px solid #EBEBEB;
+  padding-bottom: 6px;
+}
+
+.wiki h4 {
+  margin: 0px 0px 10px;
+  border-left: 6px solid #EBEBEB;
+  border-bottom: none;
+  padding-left: 6px;
+  padding-bottom: 6px;
+}
+
+div.wiki th {
+  background-color: #F7F7F7;
+  font-weight: normal;
+}
+
+
+.issues th a {
+  color: #484848;
+  font-weight: normal;
+}
+
+.toc {
+  background-color: #FFFFFF !important;
+  border: none !important;
+  border-left: 2px solid #DDD !important;
+  /*box-shadow: 0px 0px 3px #DDD;*/
+}
+
+tr.odd {
+  background-color: white;
+}
+
+.issues tr {
+  border-bottom: 1px solid #E4E4E4;
+  border-left: 1px solid #E4E4E4;
+  border-right: 1px solid #E4E4E4;
+}
+
+tr.priority-5 {
+  background-color: #F3D1E5;
+}
+
+tr.priority-4 {
+  background-color: #FCEDAA;
+}
+
+tr.priority-3 td, tr.priority-3 td a {
+  color: #AC1B4E;
+}
+
+tr.priority-1 {
+  background-color: #EDFFFD;
+}
+
+div.priority-5 div.subject h3 {
+  background-color: #F3D1E5;
+}
+div.priority-4 div.subject h3 {
+  background-color: #FCEDAA;
+}
+div.priority-3 div.subject h3 {
+  color: #AC1B4E;
+}
+div.priority-1 div.subject h3 {
+  background-color: #EDFFFD;
+}
+
+#roadmap .list tr {
+  border: 1px solid #E4E4E4;
+}
+
+input[type="submit"] {
+  background: #DA5019;
+  border: 1px solid #C7243A;
+  padding: 5px;
+  color: white;
+  border-radius: 4px;
+  min-width: 80px;
+}
+input[type="submit"]:active {
+  border: 1px solid white;
+}
