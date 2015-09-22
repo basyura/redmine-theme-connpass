@@ -13,7 +13,7 @@ $ git clone https://github.com/basyura/redmine-theme-connpass.git
 
 issues
 
-![issues](https://raw.githubusercontent.com/basyura/redmine-theme-connpass/master/images/image1.png) 
+![issues](https://raw.githubusercontent.com/basyura/redmine-theme-connpass/bbf9de6ad893fdacfcbf7415dae63146a7b58bab/images/image1.png)
 
 
 ticket
