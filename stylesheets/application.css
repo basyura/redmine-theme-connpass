@@ -2,11 +2,8 @@
 @import url(../../../stylesheets/application.css);
 
 #top-menu {
-  /*background: #377FA3;*/
   background-color: #ECECEC;
-  /*border-bottom: 1px solid gray;*/
   color: #484848;
-  /*border-left:4px solid #969696;*/
   border-bottom: 4px solid #F7F7F7;
 }
 
@@ -29,8 +26,6 @@
   padding-bottom:10px;
   padding-top:10px;
   background: url( ../images/logo.png) no-repeat 5px 10px;
-  /*border-bottom: 4px solid #F7F7F7;*/
-  /*color: #759FCF;*/
 }
 
 
@@ -94,13 +89,6 @@ div.subject h3 {
   color: #484848;
 }
 
-#history h3 {
-  /*border-left:4px solid #969696;*/
-  /*box-shadow: 0px 0px 3px #DDD;*/
-  /*padding: 10px;*/
-  /*margin:10px -10px 10px;*/
-}
-
 .journal {
   background-color: #ffffff;
   border: 1px solid #D8D8D8;
@@ -118,11 +106,6 @@ div.subject h3 {
 
 #history h4 a {
   color: #484848;
-}
-
-.icon-edit {
-  /*background-color: red !important;*/
-  /*color: white !important;*/
 }
 
 .other-formats a {
@@ -146,7 +129,6 @@ div.wiki-page {
 
 .wiki-page h1 {
   color: #169 !important;
-  /*text-decoration: underline;*/
 }
 
 div.issue h2, .wiki h2 {
