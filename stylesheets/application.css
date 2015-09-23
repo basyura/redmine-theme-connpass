@@ -161,7 +161,7 @@ div.wiki th {
 }
 
 
-.issues th a {
+.list th a {
   color: #484848;
   font-weight: normal;
 }
@@ -227,3 +227,30 @@ input[type="submit"] {
 input[type="submit"]:active {
   border: 1px solid white;
 }
+
+/*--  knowledgebase  --*/
+
+.list td.title {
+  text-align: left;
+  padding-left: 10px;
+}
+
+#category-crumbs {
+  padding-bottom: 15px;
+  border-bottom: 1px solid #D6D6D6;
+}
+
+.rating-title {
+  padding-bottom: 5px;
+}
+
+#taglist .tag {
+  padding: 3px !important;
+  font-size: 100%;
+  margin:0px 0px 0px 0px;
+  line-height: 25px;
+  border: 1px solid gray;
+  background: none;
+}
+
+
