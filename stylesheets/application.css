@@ -228,6 +228,34 @@ input[type="submit"]:active {
   border: 1px solid white;
 }
 
+/* -- message --*/
+
+div.message {
+  background-color:#FFFFFF;
+  padding: 20px;
+}
+
+.messages tr {
+  border: 1px solid #D8D8D8;
+}
+
+.message > p {
+  /*text-align: right;*/
+  border-bottom: 1px solid #D6D6D6;
+}
+
+
+div.reply {
+  margin-bottom: 10px;
+}
+
+/*-- project root --*/
+
+#projects-index .description p {
+  padding-left: 20px;
+  padding-top: 10px;
+}
+
 /*--  knowledgebase  --*/
 
 .list td.title {
@@ -246,7 +274,8 @@ input[type="submit"]:active {
 
 #taglist .tag {
   padding: 3px !important;
-  font-size: 100%;
+  font-size: 8pt;
+  font-weight: none;
   margin:0px 0px 0px 0px;
   line-height: 25px;
   border: 1px solid gray;
