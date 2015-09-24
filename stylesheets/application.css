@@ -1,6 +1,15 @@
 /* load the default Redmine stylesheet */
 @import url(../../../stylesheets/application.css);
 
+* {
+  font-family: Meiryo,"Hiragino Kaku Gothic Pro","MS PGothic",Verdana,sans-serif !important;
+  /*color:#353135;*/
+}
+div.wiki pre, .wiki pre {
+    font-family: "Consolas","Lucida Sans Console",monospace !important;
+}
+
+
 #top-menu {
   background-color: #ECECEC;
   color: #484848;
@@ -9,6 +18,13 @@
 
 #top-menu #loggedas {
   color: #484848;
+}
+#top-menu a {
+  font-weight:normal !important;
+}
+
+#main-menu li a {
+  font-weight:normal !important;
 }
 
 #header {
@@ -82,7 +98,7 @@ div.subject h3 {
 }
 
 .author {
-  text-align:right;
+  /*text-align:right;*/
 }
 
 .author a {
@@ -121,6 +137,10 @@ div.subject h3 {
   color: #AAA;
 }
 
+div.wiki {
+  line-height: 15pt;
+}
+
 div.wiki-page {
   background-color:#FFFFFF;
   border: 1px solid #D8D8D8;
@@ -129,6 +149,12 @@ div.wiki-page {
 
 .wiki-page h1 {
   color: #169 !important;
+  border-left:4px solid #ECECEC;
+  box-shadow: 0px 0px 3px #DDD;
+  padding: 10px;
+  background-color: #F7F7F7;
+  margin-left:-20px;
+  margin-right:-20px;
 }
 
 div.issue h2, .wiki h2 {
@@ -183,32 +209,32 @@ tr.odd {
   border-right: 1px solid #E4E4E4;
 }
 
-tr.priority-5 {
+tr.priority-highest {
   background-color: #F3D1E5;
 }
 
-tr.priority-4 {
+tr.priority-high2 {
   background-color: #FCEDAA;
 }
 
-tr.priority-3 td, tr.priority-3 td a {
+tr.priority-high3 td, tr.priority-high3 td a {
   color: #AC1B4E;
 }
 
-tr.priority-1 {
+tr.priority-lowest {
   background-color: #EDFFFD;
 }
 
-div.priority-5 div.subject h3 {
+div.priority-highest div.subject h3 {
   background-color: #F3D1E5;
 }
-div.priority-4 div.subject h3 {
+div.priority-high2 div.subject h3 {
   background-color: #FCEDAA;
 }
-div.priority-3 div.subject h3 {
+div.priority-high3 div.subject h3 {
   color: #AC1B4E;
 }
-div.priority-1 div.subject h3 {
+div.priority-lowest div.subject h3 {
   background-color: #EDFFFD;
 }
 
@@ -219,14 +245,18 @@ div.priority-1 div.subject h3 {
 input[type="submit"] {
   background: #DA5019;
   border: 1px solid #C7243A;
-  padding: 5px;
   color: white;
   border-radius: 4px;
   min-width: 80px;
+  height: 27px;
+  line-height: 22px;
+  outline: 0px none;
+  padding: 0px 8px;
 }
 input[type="submit"]:active {
   border: 1px solid white;
 }
+
 
 /* -- message --*/
 
@@ -283,3 +313,65 @@ div.reply {
 }
 
 
+/*-- gravator --*/
+
+div.issue img.gravatar {
+  float: right;
+}
+
+.right_arrow {
+  float: right;
+  padding-left:5px;
+  padding-right:5px;
+  padding-top:10px;
+  width:40px;
+  height:40px;
+}
+
+
+div.issue table.attributes th {
+  width: 10% !important;
+  font-weight: normal;
+}
+div.issue table.attributes td {
+}
+
+/*-- roadmap --*/
+
+p.percent {
+  white-space: nowrap;
+}
+
+#version-summary {
+  margin-top: 30px;
+  background-color:#F7F7F7 !important;
+}
+
+.status_by_user {
+  width:80px;
+  text-align:right;
+  white-space: nowrap;
+}
+
+#roadmap .related-issues .progress td {
+  height: 6px !important;
+}
+#roadmap .related-issues tr {
+  height: 20px;
+}
+#roadmap .related-issues td.subject {
+}
+
+body.controller-versions.action-show div#roadmap .related-issues {width:80% !important;}
+div#version-summary { width:18% !important; }
+
+DIV#issue-changesets {
+  width: 300px !important;
+  background-color:#F7F7F7;
+}
+
+#issue-changesets .changeset {
+  border: 1px solid #5694AB !important;
+	box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.05);
+  margin-bottom:2px;
+}
