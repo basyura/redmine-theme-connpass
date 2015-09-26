@@ -24,3 +24,7 @@ ticket
 wiki
 
 ![wiki](https://raw.githubusercontent.com/basyura/redmine-theme-connpass/master/images/image3.png) 
+
+## LICENSE
+
+MIT License
