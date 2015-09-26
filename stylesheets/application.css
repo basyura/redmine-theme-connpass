@@ -201,7 +201,7 @@ div.wiki th {
 }
 
 tr.odd {
-  background-color: white;
+  /*background-color: white;*/
 }
 
 .issues tr {
@@ -241,6 +241,10 @@ div.priority-lowest div.subject h3 {
 
 #roadmap .list tr {
   border: 1px solid #E4E4E4;
+}
+
+textarea {
+  font-size:10pt;
 }
 
 input[type="submit"] {
@@ -357,9 +361,16 @@ p.percent {
 #roadmap .related-issues .progress td {
   height: 6px !important;
 }
-#roadmap .related-issues tr {
-  height: 20px;
+.list tr {
+  height: 25px;
 }
+.list td {
+  vertical-align:middle !important;
+}
+.column_header_assigned_to {
+  width: 100px;
+}
+
 #roadmap .related-issues td.subject {
 }
 
