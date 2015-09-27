@@ -382,6 +382,7 @@ p.percent {
   height: 25px;
 }
 .list td {
+  text-align: left !important;
   vertical-align:middle !important;
 }
 .column_header_assigned_to {
@@ -403,4 +404,21 @@ DIV#issue-changesets {
   border: 1px solid #5694AB !important;
 	box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.05);
   margin-bottom:2px;
+}
+
+
+#sidebar ul.questions-tags li{
+}
+
+ul.question-meta {
+  margin-top: 10px !important;
+}
+ul.question-meta li {
+  padding-left:20px !important;
+}
+.topic-subject {
+  color: #169 !important;
+}
+table.topics tr {
+  border: 1px solid #E4E4E4;
 }
